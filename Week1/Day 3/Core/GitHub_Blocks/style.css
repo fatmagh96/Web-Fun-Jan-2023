@@ -39,16 +39,19 @@ div {
     background-color: rgb(93,199,219);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .div2 {
     background-color: rgb(195,158,175);
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 .div3 {
     background-color: #FCFCFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: #333333;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    flex: 2;
+
+}
+ul {
+    display: flex;
+    flex: 1;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type:none;
+}
+li {
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    padding: 5px;
+    background-color: #16A1B8;
+    box-shadow: 2px 1px 2px black;
+    border: 1px solid black;
+    color: white;
+}
+.active {
+    font-weight: bold;
+}
