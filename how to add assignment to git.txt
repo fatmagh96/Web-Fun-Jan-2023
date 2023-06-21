@@ -1,0 +1,6 @@
+PS C:\Users\fghra\OneDrive\Bureau\Coding Dojo\Web-Fun-Jan-2023\Week1\Day 1\Core> git add .
+PS C:\Users\fghra\OneDrive\Bureau\Coding Dojo\Web-Fun-Jan-2023\Week1\Day 1\Core> git commit -m "test"
+// in case of error 
+// PS C:\Users\fghra\OneDrive\Bureau\Coding Dojo\Web-Fun-Jan-2023\Week1\Day 1\Core> git config --global user.email //"fghrab@gmail.com"
+
+PS C:\Users\fghra\OneDrive\Bureau\Coding Dojo\Web-Fun-Jan-2023\Week1\Day 1\Core> git push
