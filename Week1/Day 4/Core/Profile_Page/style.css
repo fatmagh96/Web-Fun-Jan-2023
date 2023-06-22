@@ -163,7 +163,7 @@ p > img {
 
 }
 
-p > img {
+p > img:not(#icon){
     vertical-align:middle;
 }
 /* .indiv > p > span {
