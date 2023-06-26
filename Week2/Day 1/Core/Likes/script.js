@@ -1,10 +1,12 @@
-function addLikes(){
-    var e = document.querySelector("#numberOfLikes");
+var arr = document.querySelectorAll("#numberOfLikes");
+
+function addLikes(index){
+    // var e = document.querySelector("#numberOfLikes");
+    var e = document.querySelectorAll("#numberOfLikes")[index];
     var likes = parseInt(e.innerText);
     likes++;
     e.innerText = likes;
 
 }
-var arr = document.querySelectorAll("#numberOfLikes")
 
 console.log(arr[2].innerText);
