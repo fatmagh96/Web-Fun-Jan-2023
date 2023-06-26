@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+button {
+    box-shadow: 3px 3px 3px black;
+}
+
+nav {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 30%;
+}
+
+.login{
+    background-color: #4176dd;
+    color: white;
+    box-shadow: 5px black;
+    padding: 3px 10px;
+}
+
+main {
+    display: flex;
+}
+
+main button{
+    margin: 20px 0;
+    padding: 5px 15px;
+    width: 60%;
+}
+
+.definitions {
+    flex: 2;
+}
+
+.def {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    padding: 15px 10px;
+    /* align-items: center; */
+
+}
+
+.likes {
+    background-color: #f9da78;
+}
+
+.word {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+span , .noun > h4{
+    font-style: italic;
+}
+
+.noun > * {
+    margin-bottom: 10px;
+}
+.definition {
+    flex: 3;
+    /* text-align: center; */
+    padding: 50px 15px;
+}
+
+.add {
+    flex: 1;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.add > h3 > span {
+    /* font-weight: lighter; */
+    font-weight: 1000;
+    font-style: normal ;
+}
+
+.add_def {
+    background-color: #9dc384;
+}

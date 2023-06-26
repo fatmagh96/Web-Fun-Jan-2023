@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button class="login" onclick="logout(this)">Login</button>
+        </nav>
+        <main>
+            <div class="definitions">
+                <div class="def">
+                    <div class="word">
+                        <div class="noun">
+                            <h2>ninja</h2>
+                            <h4>noun</h4>
+                            <h5>Plural: <span>ninjas</span></h5>
+                        </div>
+                        <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjustsu</a></p>
+                    </div>
+                </div>
+                <div class="def">
+                    <div class="word">
+                        <div class="noun">
+                            <h2>ninja</h2>
+                            <h4>noun</h4>
+                            <h5>Plural: <span>ninjas</span></h5>
+                        </div>
+                        <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add">
+                <h3>Dojonary is defined by <span>YOU</span></h3>
+                <button class="add_def" onclick="this.remove()">Add Defintion</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
