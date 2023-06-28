@@ -16,4 +16,21 @@ var pizza3 = pizzaOven("cheesy crust","tomato sauce", ["mozarella","raclette"], 
 
 var pizza1 = pizzaOven("neapolitan","marinana", ["vegan cheese"], ["oregano"]);
 
+var pizza_crust = ["Thin Crust", "Thick Crust", "Stuffed Crust", "Cauliflower Crust"];
+var pizza_sauce = ["Tomato Sauce", "Pesto Sauce", "Barbecue Sauce", "White Sauce"];
+var pizza_cheese = ["Mozzarella", "Cheddar", "Parmesan", "Gouda"];
+var pizza_toppings = ["Pepperoni", "Mushrooms", "Bell Peppers", "Olives"];
 
+
+
+
+function rnd() {
+    return Math.floor(Math.random()*4)
+}
+
+
+function randomPizza() {
+    return pizzaOven(pizza_crust[rnd()],pizza_sauce[rnd()],pizza_cheese[rnd()],pizza_toppings[rnd()]);
+}
+
+// console.log(randomPizza());
