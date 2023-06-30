@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul class="cities">
+                <li><a href="#" onclick="alert('Loading weather report...')">Burbank</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Chicago</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Dallas</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="head">
+                <h2>San Jose</h2>
+                <p>show temperature in <select name="temperature" id="unit" onchange="changeUnit(this)">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
+                    </select>
+                </p>
+            </div>
+            <hr class="bar">
+            <div class="forecast">
+                <div class="card today">
+                    <h4>Today</h4>
+                    <img src="./assets/some_rain.png" alt="rain">
+                    <p>some rain</p>
+                    <ul>
+                        <li class="max_temp">24°</li>
+                        <li class="min_temp">18°</li>
+                    </ul>
+                </div>
+                <div class="card tomorrow">
+                    <h4>Tomorrow</h4>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <ul>
+                        <li class="max_temp">27°</li>
+                        <li class="min_temp">19°</li>
+                    </ul>
+                </div>
+                <div class="card friday">
+                    <h4>Friday</h4>
+                    <img src="./assets/some_clouds.png" alt="clouds">
+                    <p>some clouds</p>
+                    <ul>
+                        <li class="max_temp">21°</li>
+                        <li class="min_temp">16°</li>
+                    </ul>
+                </div>
+                <div class="card saturday">
+                    <h4>Saturday</h4>
+                    <img src="./assets/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                    <ul>
+                        <li class="max_temp">26°</li>
+                        <li class="min_temp">21°</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="cookies">
+                <div class="cookie_img">
+                    <img src="./assets/cookie.png" alt="cookie">
+                </div>
+                <div class="cookies_msg">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and adds,
+                        to provide social media features and to analyse our traffic.
+                        <a href="#" class="readmore">Read more...</a>
+                    </p>
+                </div>
+                <div class="btn">
+                    <button onclick="dismiss()">I Accept</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

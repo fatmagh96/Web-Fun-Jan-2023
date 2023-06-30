@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* font-size: 16pt; */
+}
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+/* .container {
+
+} */
+/* .container> *{
+    padding: 10px 300px;
+} */
+
+/* NAV BAR */
+nav {
+    background-color: #a7c4f4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+.cities, ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    padding: 0 20px;
+    font-size: 16pt; 
+}
+
+/* MAIN */
+
+main {
+    margin: 20px 100px;
+    /* padding: 10px 20px; */
+    /* position: relative; */
+    min-height: 600px;
+}
+
+.head {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    border: 1.5px solid black;
+}
+
+.forecast {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* overflow: hidden; */
+    flex-flow: row wrap;
+}
+
+.card {
+    background-color: gainsboro;
+    text-align: center;
+    height: 300px;
+    /* flex: 1; */
+    /* flex: auto; */
+    width: 250px;
+    /* margin: 0 10px; */
+
+}
+
+/* .today,.tomorrow, .friday {
+    margin-right:  20px;
+} */
+
+.card > *{
+    margin: 10px;
+}
+
+.card > img{
+    width: 70px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.card > ul {
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+.max_temp {
+    color: red;
+}
+.min_temp {
+    color: blue;
+}
+
+/* cookies */
+.cookies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: #eeeeee ;
+    position: fixed;
+    bottom: 5px;
+    margin: 0 auto;
+    width: 77%;
+}
+
+.cookie_img {
+    margin-right: 20px;
+}
+.cookies_msg {
+    padding-right: 50px;
+}
+button {
+    background-color: #a7c4f4;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    width: 80px;
+    height: 30px;
+}
