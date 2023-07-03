@@ -37,14 +37,6 @@ function changeUnit(element) {
             
         }
 
-        // for(let x=0;x<fahrenheit_max.length;x++){
-        //     max[x].innerText = fahrenheit_max[x];
-        //     min[x].innerText = fahrenheit_min[x];
-        // }
-        // max[0].innerText = "75°";
-        // max[1].innerText = "80°";
-        // max[2].innerText = "69°";
-        // max[3].innerText = "78°";
     }
     else if (element.value == "°C"){
         for(let x=0;x<celsius_max.length;x++){
