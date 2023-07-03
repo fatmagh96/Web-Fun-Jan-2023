@@ -28,10 +28,19 @@ var fahrenheit_min = ["65°","66°","61°","70°"];
 function changeUnit(element) {
     console.log(element.value);
     if (element.value == "°F"){
-        for(let x=0;x<fahrenheit_max.length;x++){
-            max[x].innerText = fahrenheit_max[x];
-            min[x].innerText = fahrenheit_min[x];
+        var e = document.querySelectorAll("#temp");
+        console.log("esttsettstest:", e[0].innerText);
+        for (let index = 0; index < e.length; index++) {
+            var temperature = parseInt(e[index].innerText);
+            // (0 °C × 9/5) + 32 = 32 °F
+            e[index].innerText = Math.round((temperature * 9/5) + 32);
+            
         }
+
+        // for(let x=0;x<fahrenheit_max.length;x++){
+        //     max[x].innerText = fahrenheit_max[x];
+        //     min[x].innerText = fahrenheit_min[x];
+        // }
         // max[0].innerText = "75°";
         // max[1].innerText = "80°";
         // max[2].innerText = "69°";

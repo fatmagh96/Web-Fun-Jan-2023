@@ -2,18 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
     /* font-size: 16pt; */
+    /* outline: 1px solid crimson; */
 }
-/* .container {
-    display: flex;
-    flex-direction: column;
-} */
-/* .container {
-
-} */
-/* .container> *{
-    padding: 10px 300px;
-} */
 
 /* NAV BAR */
 nav {
@@ -29,7 +21,7 @@ h1 {
     font-size: 22pt;
 }
 
-.cities, ul {
+.cities {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -38,7 +30,7 @@ nav a {
     text-decoration: none;
     color: white;
 }
-li {
+nav li {
     padding: 0 20px;
     font-size: 16pt; 
 }
@@ -46,9 +38,11 @@ li {
 /* MAIN */
 
 main {
-    margin: 20px 100px;
+    /* margin: 20px 100px; */
+    margin: 20px auto;
     /* padding: 10px 20px; */
     /* position: relative; */
+    width: 80%;
     min-height: 600px;
 }
 
@@ -78,7 +72,8 @@ main {
     height: 300px;
     /* flex: 1; */
     /* flex: auto; */
-    width: 250px;
+    /* width: 250px; */
+    width: 20% ;
     /* margin: 0 10px; */
 
 }
@@ -100,8 +95,19 @@ main {
 
 .card > ul {
     margin-top: 30px;
-    padding: 10px 30px;
+    padding: 10px;
+    /* width: 20%; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.card li {
+    font-size: 15pt;
+}
+
+
 .max_temp {
     color: red;
 }
@@ -119,8 +125,9 @@ main {
     background-color: #eeeeee ;
     position: fixed;
     bottom: 5px;
-    margin: 0 auto;
-    width: 77%;
+    /* left: 100px; */
+    margin: 0 11%;
+    width: 78%;
 }
 
 .cookie_img {
