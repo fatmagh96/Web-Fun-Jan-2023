@@ -1,0 +1,193 @@
+/* RESET TO DEFAULT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid salmon; */
+}
+
+.wrapper {
+    width: 1000px;
+    min-height: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+/* utility classes */
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    /* HEADER */
+    header {
+        width: 100%;
+        min-height: 50px;
+        background-color: gray;
+        border: 2px solid black;
+        
+    }
+
+        .left-header{
+            width: 40%;
+            /* background-color: chartreuse; */
+            height: 40px;
+            justify-content: space-around;
+        }
+
+            .left-header img {
+                width: 40px;
+            }
+
+            input[type="text"] {
+                border: 2px solid black;
+                height: 30px;
+            }
+
+            .left-header button {
+                padding: 5px 7px ;
+                box-shadow: 3px 3px black ;
+                border: 1px solid black;
+                background-color: #f09c3a;
+            }
+
+        .right-header{
+            width: 30%;
+            /* background-color: cyan; */
+            justify-content: flex-end;
+            /* height: 40px; */
+            padding-right: 10px;
+        }
+
+            .right-header button{
+                padding: 7px 15px;
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-right: 20px;
+            }
+
+            .get-app {
+                background-color: #4376dc;
+                color: white;
+            }
+
+            .log-in {
+                background-color: #f09c3a;
+                color: black;
+            }
+
+        /* NAV */
+        nav {
+            width: 100%;
+            /* background-color: crimson; */
+            /* min-height: 150px; */
+            padding: 0 100px;
+            padding-top: 50px;
+        }   
+            .top-nav {
+                width: 25%;
+            }
+
+                .top-nav img {
+                    width: 50px;
+                    border: 2px solid black;
+                    border-radius: 50%;
+
+                }
+
+                .top-nav button {
+                    padding: 5px 20px;
+                    background-color: red;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                }
+
+            nav ul {
+                width: 25%;
+                list-style: none;
+                margin-top: 10px;
+            }
+
+                nav ul :nth-child(1) {
+                    color: red;
+                    text-decoration: underline;
+                }
+
+        /* MAIN */
+        main {
+            width: 100%;
+            background-color: #dcdcdc;
+            /* min-height: 700px; */
+            align-items: flex-start;
+            justify-content: space-around;
+            padding: 5px 100px;
+        }
+            .left-main {
+                width: 55%;
+                /* background-color: cornflowerblue; */
+                min-height: 500px;
+
+                
+            }   
+
+                .left-card {
+                    align-items: flex-start;
+                    padding: 10px 5px ;
+                    /* width: 90%; */
+                    background-color: white;
+                    margin-bottom: 20px;
+                    border: 2px solid gray;
+                }
+
+                .votes {
+                    margin: 0 10px;
+                }
+                .arrow {
+                    width: 30px;
+                }
+
+                .project> img {
+                    width: 90%;
+                }
+
+                    .comments {
+                        width: 60%;
+                    }
+
+
+            .right-main {
+                width: 40%;
+                background-color: coral;
+                min-height: 700px;
+            }
+                .right-card {
+                    margin-bottom: 30px;
+                }
+
+                .right-card h3 {
+                    background-color: red;
+                    padding: 10px;
+                    color: white;
+                    border: 2px solid black;
+                }
+
+                .right-card p {
+                    background-color: white;
+                    padding: 20px 10px;
+                    border: 3px gray solid;
+                }
+
+                .card-content {
+                    padding: 10px ;
+                    background-color: white;
+                    border: 2px solid gray;
+                }
+                .right-card button {
+                    width: 90%;
+                    padding: 5px;
+                    border: 2px solid black;
+                
+                }
+

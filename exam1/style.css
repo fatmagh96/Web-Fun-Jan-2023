@@ -1,0 +1,141 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid crimson; */
+    font-family: sans-serif;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+    /* START OFFER */
+    .offer h3 {
+        text-align: center;
+        background-color: #b87e9e;
+        color: white;
+        padding: 7px 0;
+        border: 1px solid black;
+    }
+
+    /* END OFFER */
+
+    /* START HEADER */
+    header {
+        padding: 5px 0;
+        justify-content: space-around;
+    }
+
+        input[type="text"]{
+            width: 60%;
+            height: 28px;
+            border: 2px solid black;
+        }
+
+        .cart img {
+            width: 60%;
+            transform: scaleX(-1);
+        }
+
+    /* END HEADER */
+
+    /* START NAV */
+
+    nav {
+        padding: 7px 150px;
+        background-color: #dddddd;
+    }       
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul {
+            list-style: none;
+            font-size: large;
+            justify-content: space-evenly;
+        }
+
+        nav ul :nth-child(3){
+            font-weight: bold;
+            padding-top: 5px;
+        }
+
+        nav ul .line {
+            border:2px solid #b87e9e;
+            margin: 0 2px;
+        }
+
+        /* END NAV */
+
+
+        /* START MAIN */
+        main {
+            margin: 10px 50px;
+
+        }
+
+            main h1 {
+                text-align: center;
+                background-color: #b87e9e;
+                color: white;
+                padding: 25px;
+                
+            }
+
+            main .sorting{
+                justify-content: space-between;
+                margin: 20px 0;
+                font-size: 13pt;
+            }
+
+                main .sorting p{
+                    width: 60%;
+                }
+
+                main  .sorting .sortedBy{
+                    font-weight: bold;
+                }
+
+            main .select > *{
+                margin-left: 10px;
+            }
+
+            main .products {
+                margin: 10px -21px;
+                gap: 50px;
+                justify-content: space-between;
+            }
+
+            main .card {
+                text-align: center;
+            }
+
+                main .card > *{
+                    margin-bottom: 10px;
+                }
+
+                main .card img {
+                    width: 80%;
+                }
+
+                main .card button {
+                    padding: 7px 10px;
+                    border-radius: 10%;
+                    background-color: #b87e9e;
+                    color: white;
+                    border: none;
+                }
+        /* END MAIN */

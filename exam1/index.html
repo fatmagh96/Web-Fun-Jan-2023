@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Plushy Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="offer">
+            <h3>FREE PHONE GRIP ON SELECT PURCHASES</h3>
+        </div>
+        <header class="flex-items">
+            <h1>PlushStar</h1>
+            <input type="text" placeholder="Search">
+            <div class="cart flex-items">
+                <h4 id="items">0</h4>
+                <img src="./images/cart-dark.png" alt="cart">
+            </div>
+        </header>
+        <nav>
+            <ul class="flex-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Products</a>
+                    <hr class="line">
+                </li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" onclick="message()">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Plushy Store</h1>
+            <div class="sorting flex-items">
+                <p>62 Products, sorted by <span class="sortedBy">Best Selling</span></p>
+                <div class="select flex-items">
+                    <p>Sort By</p>
+                    <select name="sort" id="sort" onchange="changeSorting(this)">
+                        <option value="Best Selling">Best Selling</option>
+                        <option value="Price">Price</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products flex-items">
+                <div class="card">
+                    <img src="./images/product-image.png" alt="product-image">
+                    <h3>Mischief Mouse</h3>
+                    <button onclick="addToCart()">BUY</button>
+                </div>
+                <div class="card">
+                    <img src="./images/product-image.png" alt="product-image">
+                    <h3>Shy Shrew</h3>
+                    <button onclick="addToCart()">BUY</button>
+                </div>
+                <div class="card">
+                    <img src="./images/product-image.png" alt="product-image">
+                    <h3>Hangry Hamster</h3>
+                    <button onclick="addToCart()">BUY</button>
+                </div>
+                <div class="card">
+                    <img src="./images/product-image.png" alt="product-image">
+                    <h3>Chilly Chinchilla</h3>
+                    <button onclick="addToCart()">BUY</button>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
