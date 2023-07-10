@@ -1,0 +1,46 @@
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+    .navbar-brand {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+.custom-button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0%;
+    padding: 0 10px;
+    padding-bottom: 2px;
+    height: 70%;
+    width: 6rem;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: #4b81f6;
+    
+}
+
+.navbar-background {
+    background-color: #c2dcfc;
+}
+
+.jumbotron {
+    background-image: url(./images/pexels-miro-alt-176400.jpg);
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* height:25rem; */
+    max-width: 100%;
+    min-height: 400px;
+    
+}
+
+.jumbotron .border {
+    border: 3px solid black;
+}
+
+/* .jumbotron img {
+    height: 20rem;
+    width: 90%;
+} */

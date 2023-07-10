@@ -1,37 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
   <div class="container">
-    <nav class="navbar bg-info">
+
+    <!-- <nav class="navbar navbar-background ">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold fs-3">Navbar</a>
-          <div class="d-flex gap-5">
-            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-            <button class="btn btn-light text-primary">Search</button>
-            <button class="btn btn-light btn-outline-primary text-primary">Search</button>
-            <button class="btn btn-light btn-outline-primary text-primary">Search</button>
+          <a class="navbar-brand fs-2 fw-semibold">Bob the Dev</a>
+          <div class="d-flex align-items-center justify-content-around gap-lg-4 gap-md-3 me-3">
+            <button class="btn custom-button">about me</button>
+            <button class="btn custom-button">Projects</button>
+            <button class="btn custom-button">contact</button>
           </div>
         </div>
-      </nav>
-
-      
-    <div class="jumbotron">
-      <div class="container text-center">
-        <h1>My Portfolio</h1>      
-        <p>Some text that represents "Me"...</p>
+      </nav> -->
+    <nav class="navbar navbar-expand-md navbar-background">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-semibold" href="#">Bob the Builder</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+  
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-center gap-lg-4 gap-md-3">
+            <li class="nav-item">
+              <button class="btn custom-button"><a style="text-decoration: none;" href="#">about me</a></button>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Link</a> -->
+              <button class="btn custom-button">Projects</button>
+            </li>
+            <li class="nav-item">
+              <button class="btn custom-button">contact</button>
+            </li>
+          </ul>
+          <!-- <form class="d-flex align-items-center justify-content-around gap-lg-4 gap-md-3 me-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+        </div>
+      </div>
+    </nav>
+  <!-- Background image -->
+  <div class="jumbotron">
+    <div class="mask">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="text-white">
+          <!-- <br><br><br><br><br><br><br><br><br> -->
+          <h1 class="m-5 border-2 bg-light text-dark px-2">You Dream It, I Create It...</h1>
+            <!-- <br><br><br><br><br><br><br><br><br> -->
+        </div>
+      </div>
+  </div>
+  <!-- <div id="intro-example" class="p-5 text-center bg-image"
+    style="background-image: url('./images/pexels-miro-alt-176400.jpg');">
+    <div class="mask">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+          <h5 class="mb-4">
+            Best & free guide of responsive web design
+          </h5>
+          <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+            role="button" rel="nofollow" target="_blank">Start tutorial</a>
+          <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/"
+            target="_blank" role="button">Download MDB UI KIT</a>
+        </div>
       </div>
     </div>
+  </div> -->
+</div>
+  <!-- Background image -->
+    <div class="card">
+      test
+    </div>
 
-  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
